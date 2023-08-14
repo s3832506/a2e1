@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+   }
+   :root{
+     --col-01:rgb(40,40,40);
+     --col-02:rgb(82, 79, 79);
+     --col-03:rgb(173, 160, 160);
+     --col-04:rgb(160, 139, 139);
+     --border: 6px solid rgb(255, 255, 255);
+   }
+   
+   .wrapper{
+     background-color:rgb(83, 71, 71);
+     margin: 0 auto;
+     display: flex;
+     flex-direction: column;
+     align-items:stretch;
+     row-gap: 20px;
+     padding: 20px;
+     background-image: linear-gradient(to bottom, #ff1493, #ff4500);
+   }
+
+   .row1, .row2, .row3 {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    row-gap: 10px;
+    flex-grow: 1;
+   }
+
+   .row1-1 {
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+    flex-grow: 1;
+   }
+
+   .box {
+    display: flex;
+    border: var(--border);
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, #1437ff, #5b78e9);
+   }
+
+   #box1 {
+    flex-grow: 1.5;
+    flex: 700px;
+    column-gap: 10px;
+   }
+
+   #box2, #box3 {
+    flex-grow: 1;
+    flex: 400px;
+    width: 1000px;
+    column-gap: 5px;
+    row-gap: 20px;
+   }
+
+   #box4 {
+    flex-grow: 1;
+    column-gap: 5px;
+    row-gap: 20px;
+   }
+
+   #box5 {
+    flex-grow: 2;
+   }
+
+   #box6 {
+    flex-grow: 1;
+   }
+
+   #box7 {
+    flex-grow: 2;
+   }
